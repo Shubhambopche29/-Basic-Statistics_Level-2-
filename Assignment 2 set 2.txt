@@ -1,0 +1,76 @@
+Q1)
+  Since the time required for servicing the transmission is normally distributed with a mean of 45 minutes and a standard deviation of 8 minutes, we can use the standard normal distribution to find the probability.
+
+We can use the z-score formula to find the z-score corresponding to 50 minutes:
+
+z = (x - m) / s
+= (50 - 45) / 8
+= 5/8
+A. 0.3875
+
+B. 0.2676
+
+C. 0.5
+
+D. 0.6987
+ ANS :- 0.2676
+
+
+Q2) A. False. The mean of the distribution is 38, so half of the employees at the processing center are expected to be younger than 38 and half are expected to be older. If the standard deviation is 6, then approximately 68% of the employees are expected to be between 32 and 44, which means that more employees at the processing center are between 38 and 44 than older than 44.
+
+B. False. A training program for employees under the age of 30 at the center would be expected to attract more than 36 employees. Approximately 34% of the employees are expected to be younger than 32, so a training program for employees under the age of 30 would be expected to attract more than 136 employees (400 * 34%).
+
+
+Q3) The difference between 2 X1 and X1 + X2 is X1 - X2.
+
+The distribution of X1 - X2 is also normal, with a mean of μ - μ = 0 and a variance of σ2 + σ2 = 2σ2. Therefore, the standard deviation of X1 - X2 is sqrt(2) * σ.
+
+The parameters of the distribution of X1 - X2 are 0 for the mean and sqrt(2) * σ for the standard deviation.
+
+
+Q4)  To find the values a and b, we can use the fact that the probability of the random variable taking a value between them is 0.99, which means that the probability of the random variable taking a value outside of this range is 0.01.
+
+Since the distribution is normal with a mean of 100 and a standard deviation of 14, we can use the standard normal distribution to find the values of a and b.
+
+Since the probability of the random variable taking a value outside of the range is 0.01, this corresponds to approximately 2.3 standard deviations from the mean. Therefore, we can find the values of a and b by subtracting 2.3 standard deviations from the mean and adding 2.3 standard deviations to the mean, respectively.
+
+This gives us a = 100 - (2.3 * 14) = 72.2 and b = 100 + (2.3 * 14) = 127.8.
+
+Therefore, the correct answer is B.
+
+
+Q5) A) Specify a Rupee range (centered on the mean) such that it contains 95% probability for the annual profit of the company.
+
+  sol :-To find the Rupee range that contains 95% probability for the annual profit of the company, we can find the mean and standard deviation of the sum of the two profits. The mean of the sum is the sum of the means, which is 225 + 315 = 540. The variance of the sum is the sum of the variances, which is 1440 + 1890 = 3230. The standard deviation is the square root of the variance, which is sqrt(3230) = 57.
+
+Since we want to find a range that is centered on the mean and contains 95% of the probability, we can use the fact that approximately 95% of the probability is contained within 2 standard deviations of the mean. Therefore, we can find the range by subtracting 2 standard deviations from the mean and adding 2 standard deviations to the mean. This gives us a range of 540 - (2 * 57) = 426 to 540 + (2 * 57) = 654.
+
+
+B)  Specify the 5th percentile of profit (in Rupees) for the company.
+
+  SOL:-  To find the 5th percentile of profit for the company, we can use the fact that the 5th percentile corresponds to a z-score of -1.64. We can use the z-score to find the value of the profit at the 5th percentile by using the following formula:
+
+x = μ + z * σ
+
+where x is the value of the profit at the percentile, μ is the mean, z is the z-score, and σ is the standard deviation.
+
+Substituting the values into the formula, we get:
+
+x = 540 - (1.64 * 57) = 449.48
+
+Therefore, the 5th percentile of profit for the company is approximately Rs. 449.48.
+
+
+
+C)   Which of the two divisions has a larger probability of making a loss in a given year?
+
+
+SOL:-     To determine which division has a larger probability of making a loss in a given year, we need to find the probability that the profit is less than 0.
+
+For Profit1, the probability that the profit is less than 0 is equal to the area under the standard normal curve to the left of the z-score of -225/14. This can be found using a z-table or a calculator that can compute probabilities for the standard normal distribution.
+
+For Profit2, the probability that the profit is less than 0 is equal to the area under the standard normal curve to the left of the z-score of -315/19. This can be found using a z-table or a calculator that can compute probabilities for the standard normal distribution.
+
+Using a calculator, we find that the probability that Profit1 is less than 0 is approximately 0.002, while the probability that Profit2 is less than 0 is approximately 0.0007.
+
+Therefore, Division 2 has a larger probability of making a loss in a given year.

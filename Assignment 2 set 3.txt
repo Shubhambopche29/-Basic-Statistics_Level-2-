@@ -1,0 +1,103 @@
+Q1)  For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+I. The sample size of the survey should at least be a fixed percentage of the population size in order to produce representative results.
+
+SOL:-  False. The sample size does not need to be a fixed percentage of the population size in order to produce representative results. Instead, the sample size should be determined based on the level of precision and confidence desired for the survey results. A larger sample size can increase the precision of the estimates, but it also increases the cost and resources required to conduct the survey.
+
+
+II. The sampling frame is a list of every item that appears in a survey sample, including those that did not respond to questions.
+ 
+SOL:-   False. The sampling frame is a list of all the items in the population that could potentially be included in the sample. It is used to select the sample for the survey. It does not include those items that did not respond to the survey questions.
+
+
+III. Larger surveys convey a more accurate impression of the population than smaller surveys.
+
+ SOL:-  False. The accuracy of a survey is not necessarily related to its sample size. A well-designed survey with a small sample size can produce accurate results, while a poorly designed survey with a large sample size can produce biased or misleading results. The accuracy of a survey depends on the design of the survey and the quality of the data collected, rather than the size of the sample.
+
+
+Q2)  PC Magazine asked all of its readers to participate in a survey of their satisfaction with different brands of electronics. In the 2004 survey, which was included in an issue of the magazine that year, more than 9000 readers rated the products on a scale from 1 to 10. The magazine reported that the average rating assigned by 225 readers to a Kodak compact digital camera was 7.5. For this product, identify the following:
+
+A. The population :-The population in this case would be all readers of PC Magazine.
+
+
+B. The parameter of interest :- The parameter of interest would be the average satisfaction level of PC Magazine readers with the Kodak compact digital camera.
+
+
+C. The sampling frame :- The sampling frame would be the list of all PC Magazine readers who were eligible to participate in the survey.
+
+
+D. The sample size :- The sample size would be the number of PC Magazine readers who actually participated in the survey and rated the Kodak compact digital camera, which is 225 in this case.
+
+
+E. The sampling design :- The sampling design used in this survey is not specified, but it could be a simple random sample or a stratified random sample.
+
+
+F. Any potential sources of bias or other problems with the survey or sample :-  One potential source of bias in this survey is self-selection bias, as only those readers who chose to participate in the survey are included in the sample. This means that the sample may not be representative of the entire population of PC Magazine readers, as those who did not participate in the survey may have different satisfaction levels with the Kodak compact digital camera. Additionally, the use of a rating scale from 1 to 10 may not be sufficient to capture the full range of satisfaction levels, and the ratings may not be comparable across different brands of electronics.
+
+
+
+Q3)  For each of the following statements, indicate whether it is True/False. If false, explain why.
+
+I. If the 95% confidence interval for the average purchase of customers at a department store is $50 to $110, then $100 is a plausible value for the population mean at this level of confidence.
+
+SOL:- TRUE
+
+II. If the 95% confidence interval for the number of moviegoers who purchase concessions is 30% to 45%, this means that fewer than half of all moviegoers purchase concessions.
+
+SOL:- The confidence interval represents the range of values that is likely to include the true population proportion, based on the sample data. A 95% confidence interval means that if the same sample were drawn multiple times and a confidence interval was calculated for each sample, approximately 95% of the intervals would include the true population proportion. Therefore, if the confidence interval for the proportion of moviegoers who purchase concessions is 30% to 45%, it is reasonable to conclude that the true population proportion is likely to be within this range, but it could be above or below 50%
+
+III. The 95% Confidence-Interval for μ only applies if the sample data are nearly normally distributed.
+
+  SOL:-   False. The 95% Confidence-Interval for μ (the population mean) does not depend on the normality of the sample data. Confidence intervals are based on statistical calculations that take into account the sample size and the sample mean, regardless of the distribution of the data. However, certain statistical techniques, such as the t-test, do assume normality of the data and may not be appropriate to use if the data are not normally distributed.
+
+Q6) The 95% confidence interval for the size of the shipment is 250 ± 45 books, which means that the range of values that is likely to include the true population mean is 250 - 45 = 205 to 250 + 45 = 295 books. This interval represents the precision of the estimate, and it means that if the same sample were drawn multiple times and a confidence interval was calculated for each sample, approximately 95% of the intervals would include the true population mean. Therefore, interpretation C is correct.
+
+
+Q7)   SOL :-  D. We cannot say
+      The length of a confidence interval depends on the sample size, the level of confidence, and the standard deviation of the population. The z-interval and the t-interval are two different types of confidence intervals that can be used to estimate the population mean, and the choice of interval depends on the assumptions about the population and the sample.
+      In general, the t-interval is wider than the z-interval because it allows for greater uncertainty due to the unknown standard deviation of the population. However, the difference in width between the two intervals depends on the sample size, the level of confidence, and the standard deviation of the population. Without knowing these values, it is not possible to determine which interval is shorter.
+ 
+Q8)To determine the minimum sample size required to estimate the percentage of businesses that plan to hire additional employees with a margin of error of no more than 4% at 95% confidence, you can use the following formula:  
+
+ n = (Z^2 * p * (1-p)) / (E^2)
+
+where n is the sample size, Z is the z-score corresponding to the desired level of confidence (1.96 for 95% confidence), p is the estimated proportion of businesses that plan to hire additional employees (assume p = 0.5 for simplicity), and E is the desired margin of error (4% in this case).
+
+Plugging these values into the formula, we get:
+
+n = (1.96^2 * 0.5 * (1-0.5)) / (0.04^2)
+
+= (3.8416 * 0.5 * 0.5) / (0.0016)
+
+= 1.92 * 0.5 / 0.0016
+
+= 3.84 / 0.0016
+
+= 2402.5
+
+The minimum sample size required to estimate the percentage of businesses that plan to hire additional employees with a margin of error of no more than 4% at 95% confidence is approximately 2402.5. Therefore, the correct answer is D.
+
+
+
+Q9)  To determine the minimum sample size required to estimate the percentage of businesses that plan to hire additional employees with a margin of error of no more than 4% at 98% confidence, you can use the following formula:
+
+n = (Z^2 * p * (1-p)) / (E^2)
+
+where n is the sample size, Z is the z-score corresponding to the desired level of confidence (2.33 for 98% confidence), p is the estimated proportion of businesses that plan to hire additional employees (assume p = 0.5 for simplicity), and E is the desired margin of error (4% in this case).
+
+Plugging these values into the formula, we get:
+
+n = (2.33^2 * 0.5 * (1-0.5)) / (0.04^2)
+
+= (5.4289 * 0.5 * 0.5) / (0.0016)
+
+= 2.7144 * 0.5 / 0.0016
+
+= 5.4288 / 0.0016
+
+= 3355
+
+The minimum sample size required to estimate the percentage of businesses that plan to hire additional employees with a margin of error of no more than 4% at 98% confidence is approximately 3355. Therefore, the correct answer is A.
+
+
+ 

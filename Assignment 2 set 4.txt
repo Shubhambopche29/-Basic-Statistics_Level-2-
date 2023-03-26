@@ -1,0 +1,67 @@
+Q2)  i)  False. Before using a normal model for the sampling distribution of the average package weights, the manager does not necessarily have to confirm that weights of individual packages are normally distributed. The central limit theorem states that the sampling distribution of the mean of a large sample size (n ≥ 30) will approach a normal distribution, regardless of the shape of the distribution of the individual observations. Therefore, as long as the sample size is large enough, the manager can use a normal model for the sampling distribution of the average package weights without confirming that the weights of individual packages are normally distributed.
+
+
+   ii)  False. The standard error of the daily average SE(𝑥̅) is not equal to 1. Standard error is a measure of the variability of the sampling distribution of the mean. It is calculated as the standard deviation of the population (σ) divided by the square root of the sample size (n). In this case, the standard error of the daily average would be calculated as SE(𝑥̅) = σ/√n = 5/√25 = 1.
+
+  Q3)   First, we need to standardize the mean withdrawal amount of the sample, which is $50, by subtracting the mean of the population and dividing by the standard deviation of the population:
+
+(50 - 50)/40 = 0
+
+Next, we need to find the area under the normal curve that corresponds to the range of mean withdrawal amounts that would trigger an investigation ($45 to $55). This area can be calculated using a z-table or a calculator that can compute z-scores.
+
+The z-score corresponding to a mean withdrawal amount of $45 is -1.25, and the z-score corresponding to a mean withdrawal amount of $55 is 1.25. The area under the normal curve between these two z-scores is the probability that in any given week, there will be an investigation. This area is equal to 0.1055, or about 10.55%.
+
+Therefore, the correct answer is C. 10.55%.
+
+
+
+Q4) To find the minimum sample size needed to maintain the probability of investigation at 5%, we can use the following formula:
+
+n = (SE * z-score)^2
+
+where SE is the standard error of the mean, and z-score is the difference between the two z-scores corresponding to the thresholds ($45 and $55 in this case).
+
+Substituting the values from the problem, we get:
+
+n = (40/√n * 2.5)^2
+
+Solving this equation for n, we get:
+
+n = (40 * 2.5)^2 / 1
+
+n = 250
+
+Therefore, the minimum number of transactions that the auditors should sample to maintain the probability of investigation at 5% is 250.
+
+The correct answer is D. 250.
+
+
+
+
+Q5)  A) A. The standard deviation of the scores within any sample will be 120.
+
+SOL:- It is possible that the standard deviation within a sample could be different from 120, especially if the sample size is small thats why this answer is incorrect.
+
+B)   The standard deviation of the mean of across several samples will be 120.
+
+  SOL:-  the standard deviation of the mean of several samples is not equal to the standard deviation of the population.Therefore, the standard error of the mean will be smaller than the standard deviation of the population, especially if the sample size is large.
+
+ C)  The mean score in any sample will be 720.
+
+   SOL:-  This answer choice is incorrect because the mean score in any sample will depend on the scores of the individuals included in the sample. It is possible that the mean score in a sample could be different from 720, especially if the sample size is small or if the distribution of scores within the sample is different from the overall distribution of scores.
+
+ D)  The average of the mean across several samples will be 720.
+
+   SOL:- the average of the mean across several samples is known as the population mean, and it is equal to 720 in this case. If the samples are randomly chosen and are representative of the population, the average of the means across several samples will be equal to the population mean.
+                     This answer is correct.
+
+  E)    The standard deviation of the mean across several samples will be 0.60. 
+
+  SOL:- the standard deviation of the mean across several samples is not equal to 0.60. As mentioned earlier, the standard deviation of the mean across several samples is known as the standard error of the mean, and it is calculated as the standard deviation of the population divided by the square root of the sample size. Therefore, the standard error of the mean will be smaller than the standard deviation of the population, especially if the sample size is large.
+
+
+
+
+
+
+
